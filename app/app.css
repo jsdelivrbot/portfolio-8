@@ -1,0 +1,109 @@
+/* app css stylesheet */
+
+.menu {
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 3em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.btn-default {
+  font-family: monospace;
+}
+
+img {
+  width: 40%;
+  position: relative;
+}
+
+#projects {
+  box-shadow: 10px 10px 5px grey;
+  margin: auto;
+  display: block;  
+}
+
+.links a {
+  margin: auto;
+  display: block; 
+  width: 10%;
+}
+
+#photo {
+  width: 30%;
+  margin-right:10em;
+  border-radius: 15em;
+}
+
+
+#aboutme {
+  font-family: monospace;
+  margin-left: 10em;
+  padding-top: 10em;
+}
+
+
+#link-position {
+  display: inline;
+  margin-left: 4.7em;  
+}
+
+#link-style {
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+.images {
+  display: inline;
+  padding-left: 1em; 
+  margin-left: 5.5em;
+}
+
+.lightbox-nav .btn-group {
+  vertical-align: top;
+}
+
+.lightbox-nav .close {
+  /* absolutely position this in order to center the nav buttons */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.lightbox-image-container {
+  position: relative;
+  text-align: center; /* center the image */
+}
+
+.text-center {
+  font-family: monospace;
+  padding-left: 30em;
+  padding-right: 30em;
+}
+
+.tech {
+  display: inline;
+}
+
+.techStack {
+  margin-left: 3.5em;
+  margin-right: 1em;
+  margin-top: 13em; 
+}
+
+

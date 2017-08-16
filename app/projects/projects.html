@@ -1,0 +1,10 @@
+<div ng-controller="ProjectsCtrl">
+	<div ng-repeat="project in projects">
+		<img src="{{ project.image }}" id="projects"><br><br><br>
+		<p class="text-center">{{project.description}}</p>
+		<div class="links">
+			<a class="btn btn-default" ng-if="project.live" href="{{project.live}}" role="button">Live</a>
+			<a class="btn btn-default" ng-if="project.github" href="{{project.github}}" role="button">Github</a><br><br><br>	
+		</div>
+	</div>		
+</div>
