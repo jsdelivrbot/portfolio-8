@@ -17,11 +17,11 @@
     "protractor": "^4.0.9"
   },
   "scripts": {
-     "postinstall": "ng build --aot -prod",
+    "postinstall": "ng build --aot -prod",
     "update-deps": "npm update",
     "postupdate-deps": "bower update",
     "prestart": "npm install",
-    "start":  "node server.js",
+    "start": "node server.js",
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run",
@@ -34,6 +34,7 @@
   "dependencies": {
     "angular-bootstrap-lightbox": "^0.12.0",
     "angular-ui-carousel": "^0.1.10",
+    "express": "^4.15.4",
     "lightbox2": "^2.9.0"
   }
 }
