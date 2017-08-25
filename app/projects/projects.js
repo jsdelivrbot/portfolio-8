@@ -16,7 +16,7 @@ angular.module('portfolio.projects', ['ngRoute'])
 			live: 'https://teacherstudentmanagement.herokuapp.com/',
 			github: 'https://github.com/stacy89/Student-Management-Tool',
 			image: 'public/projects/MGMT.png',
-			description: "An administrative system to store student data and generate student groups based on criteria like GPA, gender, and attendance. Formulated the students routes and used CSS to design the pages. This tool is useful for teachers that have a hard time forming groups of their students and to keep track of what student belongs to what teacher.",
+			description: "An administrative system to store student data and generate student groups based on criteria like GPA, gender, and attendance. Formulated the students routes and used CSS to design the pages. This tool is useful for teachers that have a hard time forming groups of their students and to keep track of what student belongs to what teacher. Temp. access: email: teacher@teacher.com password: teacher",
 			tech: "Tech: Ruby on Rails, PostgreSQL, Heroku, Paperclip Gem, Twilio API"
 		},
 		{
