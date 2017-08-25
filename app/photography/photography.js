@@ -62,7 +62,7 @@ angular.module('portfolio.photography', ['bootstrapLightbox', 'ngRoute'])
 			},
 			{
 				category: 'landscapes',
-				image: 'public/Landscape/MarinMountains.jpg'
+				image: 'public/Landscape/MarinMountains.JPG'
 			},
 			{
 				category: 'portraits',
@@ -110,39 +110,39 @@ angular.module('portfolio.photography', ['bootstrapLightbox', 'ngRoute'])
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo1.jpg'
+				image: 'public/Travel/Bishop2014/Photo1.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo2.jpg'
+				image: 'public/Travel/Bishop2014/Photo2.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo3.jpg'
+				image: 'public/Travel/Bishop2014/Photo3.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo4.jpg'
+				image: 'public/Travel/Bishop2014/Photo4.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo5.jpg'
+				image: 'public/Travel/Bishop2014/Photo5.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo6.jpg'
+				image: 'public/Travel/Bishop2014/Photo6.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo7.jpg'
+				image: 'public/Travel/Bishop2014/Photo7.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo8.jpg'
+				image: 'public/Travel/Bishop2014/Photo8.jpg'
 			},
 			{
 				category: 'travel',
-				image: 'public/Travel/Bishop2014/photo9.jpg'
+				image: 'public/Travel/Bishop2014/Photo9.jpg'
 			},
 			{
 				category: 'travel',
