@@ -7,7 +7,6 @@
 	</div><br><br>	
 
 	<div class="images" ng-repeat="image in images | filter:{category:currentCategory.title}">
-		<a ng-click="openLightboxModal($index)">
 			<img src="{{ image.image }}"/>
 		</a> 	
 	</div>
