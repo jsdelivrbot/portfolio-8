@@ -1,11 +1,6 @@
 'use strict';
 
 angular.module('portfolio.photography', ['ngRoute'])
-.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
-
-	$routeProvider.otherwise({redirectTo: '/projects'});
-}])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/photography', {
