@@ -9,7 +9,7 @@ angular.module('portfolio.photography', ['ngRoute'])
   });
 }])
 
-.controller('PhotographyCtrl', ['$scope', 'Lightbox', function($scope) {
+.controller('PhotographyCtrl', ['$scope', function($scope) {
 
 		$scope.categories = [
 			{
