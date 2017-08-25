@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('portfolio.photography', ['bootstrapLightbox', 'ngRoute'])
+angular.module('portfolio.photography', ['ngRoute'])
 .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
@@ -14,7 +14,7 @@ angular.module('portfolio.photography', ['bootstrapLightbox', 'ngRoute'])
   });
 }])
 
-.controller('PhotographyCtrl', ['$scope', 'Lightbox', function($scope, Lightbox) {
+.controller('PhotographyCtrl', ['$scope', 'Lightbox', function($scope) {
 
 		$scope.categories = [
 			{
@@ -177,10 +177,6 @@ angular.module('portfolio.photography', ['bootstrapLightbox', 'ngRoute'])
 				image: 'public/Travel/Nicaragua2014/Photo9.jpg'
 			}
 		];
-
-		$scope.openLightboxModal = function (index) {
-    	Lightbox.openModal($scope.images, index);
-  };
 
 		$scope.currentCategory = null;
 
