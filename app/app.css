@@ -1,6 +1,7 @@
 /* app css stylesheet */
 
 .menu {
+  background-color: #D3D3D3;
   border-bottom: 0.1em solid black;
   margin-bottom: 2em;
   padding: 3em;
@@ -82,7 +83,7 @@ img {
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -94,17 +95,17 @@ img {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: black;
   color: white;
 }
 
 .fa-instagram {
-  background: purple;
+  background: black;
   color: white;
 }
 
@@ -114,7 +115,7 @@ img {
 }
 
 .fa-google {
-  background: red;
+  background: black;
   color: white;
 }
 
