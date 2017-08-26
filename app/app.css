@@ -1,6 +1,7 @@
 /* app css stylesheet */
 
 .menu {
+  background-color: #D3D3D3;
   border-bottom: 0.1em solid black;
   margin-bottom: 2em;
   padding: 3em;
@@ -74,40 +75,48 @@ img {
   margin-left: 5.5em;
 }
 
-.lightbox-nav .btn-group {
-  vertical-align: top;
-}
-
-.lightbox-nav .close {
-  /* absolutely position this in order to center the nav buttons */
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.lightbox-image-container {
-  position: relative;
-  text-align: center; /* center the image */
-}
-
 .text-center {
   font-family: monospace;
   padding-left: 30em;
   padding-right: 30em;
 }
 
-.tech {
-  display: inline;
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 
-.techStack {
-  margin-left: 3.5em;
-  margin-right: 1em;
-  margin-top: 13em; 
+.fa:hover {
+    opacity: 0.7;
 }
 
-h4 {
-  margin-right: 10em;
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-google {
+  background: black;
+  color: white;
 }
 
 
