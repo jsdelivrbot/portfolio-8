@@ -28,6 +28,11 @@
   font-family: monospace;
 }
 
+.me {
+  margin-left: 22em;
+  margin-bottom: 5em;
+}
+
 .about-me {
   padding: 5em;
   margin-left: 4em;

@@ -1,14 +1,11 @@
-<div class="gallery gallery6" ng-controller="PhotographyCtrl"> 
+<div ng-controller="PhotographyCtrl"> 
 
 	<div id="link-position" ng-repeat="category in categories">
-	
-		<a class="btn btn-default" id="link-style" href="" ng-click="setCurrentCategory(category)" role="button">{{category.title}}</a>	
-		
+		<a class="btn btn-default" href="" ng-click="setCurrentCategory(category)" role="button">{{category.title}}</a>	
 	</div><br><br>	
 
 	<div class="images" ng-repeat="image in images | filter:{category:currentCategory.title}">
-			<img src="{{ image.image }}"/>
-		</a> 	
+		<img src="{{ image.image }}" class="img-responsive"/>	
 	</div>
 </div>	
 	
