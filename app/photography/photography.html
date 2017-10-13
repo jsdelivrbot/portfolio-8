@@ -1,15 +1,29 @@
-<div class="gallery gallery6" ng-controller="PhotographyCtrl"> 
+<div ng-controller="PhotographyCtrl"> 
 
-	<div id="link-position" ng-repeat="category in categories">
-	
-		<a class="btn btn-default" id="link-style" href="" ng-click="setCurrentCategory(category)" role="button">{{category.title}}</a>	
-		
-	</div><br><br>	
+	<div class="container">
 
-	<div class="images" ng-repeat="image in images | filter:{category:currentCategory.title}">
-			<img src="{{ image.image }}"/>
-		</a> 	
+		<div class="container">
+			<div class="row">
+				<div id="link-size" ng-repeat="category in categories">
+					<div class="col-md-3">
+						<a class="btn btn-default" href="" ng-click="setCurrentCategory(category)" role="button">{{category.title}}</a>	
+					</div>	
+				</div><br><br>	
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="images" ng-repeat="image in images | filter:{category:currentCategory.title}">
+				<div class="col-md-6">
+					<img src="{{ image.image }}" class="img-responsive"/>	
+				</div>	
+			</div>
+		</div>
+
 	</div>
+
+	<footer></footer>
+
 </div>	
 	
 

@@ -1,4 +1,4 @@
-/* app css stylesheet */
+/*/* app css stylesheet */
 
 .menu {
   background-color: #D3D3D3;
@@ -24,99 +24,20 @@
   padding-right: 0.3em;
 }
 
-.btn-default {
+.btn-default, p, h4 {
   font-family: monospace;
 }
 
-img {
-  width: 40%;
-  position: relative;
+.project-col,
+.aboutme-card {
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
-#projects {
-  box-shadow: 10px 10px 5px grey;
-  margin: auto;
-  display: block;  
-}
-
-.links a {
-  margin: auto;
-  display: block; 
-  width: 10%;
-}
-
-#photo {
-  width: 30%;
-  margin-right:10em;
-  border-radius: 15em;
+#link-size {
+  margin-left: 5em; 
 }
 
 
-#aboutme {
-  font-family: monospace;
-  margin-left: 10em;
-  padding-top: 10em;
-}
-
-
-#link-position {
-  display: inline;
-  margin-left: 4.7em;  
-}
-
-#link-style {
-  padding-left: 7em;
-  padding-right: 7em;
-}
-
-.images {
-  display: inline;
-  padding-left: 1em; 
-  margin-left: 5.5em;
-}
-
-.text-center {
-  font-family: monospace;
-  padding-left: 30em;
-  padding-right: 30em;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: black;
-  color: white;
-}
-
-.fa-linkedin {
-  background: black;
-  color: white;
-}
-
-.fa-instagram {
-  background: black;
-  color: white;
-}
-
-.fa-github {
-  background: black;
-  color: white;
-}
-
-.fa-google {
-  background: black;
-  color: white;
-}
 
 
