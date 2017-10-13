@@ -24,12 +24,12 @@
   padding-right: 0.3em;
 }
 
-.btn-default {
+.btn-default, p, h4 {
   font-family: monospace;
 }
 
-.me {
-  margin-left: 22em;
+.col-sm-12 {
+  padding-left: 22em;
   margin-bottom: 5em;
 }
 
@@ -47,10 +47,10 @@
   margin-top: 5em;
 }
 
-
-
-
-
+#link-size {
+  margin-left: 5em; 
+  
+}
 
 
 
