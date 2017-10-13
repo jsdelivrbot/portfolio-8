@@ -28,35 +28,16 @@
   font-family: monospace;
 }
 
-/*.col-sm-12 {
-  padding-left: 22em;
-  margin-bottom: 5em;
-}*/
-
-/*.about-me {
-  padding: 5em;
-  margin-left: 4em;
-}
-
-.about-content {
+.project-col,
+.aboutme-card {
   margin-top: 5em;
   margin-bottom: 5em;
-}*/
-
-.project-col {
-  margin-top: 5em;
 }
 
 #link-size {
   margin-left: 5em; 
-  
 }
 
 
 
 
-
-
-
-
-*/
