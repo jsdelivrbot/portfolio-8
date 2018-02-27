@@ -6,7 +6,7 @@
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.7.7",
+    "bower": "^1.8.2",
     "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
@@ -35,7 +35,6 @@
   "dependencies": {
     "angular-bootstrap-lightbox": "^0.12.0",
     "angular-ui-carousel": "^0.1.10",
-    "bower": "^1.8.2",
     "express": "^4.15.4",
     "lightbox2": "^2.9.0"
   }
