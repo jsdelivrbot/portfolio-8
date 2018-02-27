@@ -28,6 +28,12 @@
   font-family: monospace;
 }
 
+.project-col,
+.aboutme-card {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
 #link-size {
   margin-left: 5em; 
 }
