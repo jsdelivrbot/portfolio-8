@@ -13,12 +13,20 @@ angular.module('portfolio.projects', ['ngRoute'])
 
 	$scope.projects = [
 		{
+			name: 'MediHelper',
+			live: 'https://pacific-tor-26182.herokuapp.com/',
+			github: 'https://github.com/stacy89/MediHelper',
+			image: 'public/Projects/MediHelper.png',
+			description: "MediHelper is an app designed to improve the process of caretaking, and provides an easy access of medical information for doctor visits and emergencies. There is also a calendar feature that allows caretakers to track and schedule, treatments and appointments. (Login: test, Password: 1234)",
+			tech: "Tech:  JavaScript, React.js, Node.js, Express, Passport.js, Twilio, Bootstrap, CSS, MongoDB, Full Calendar."
+		},
+		{
 			name: 'Thera-Bot',
 			live: 'https://stacy89.github.io/project1/',
 			github: 'https://github.com/stacy89/project1',
 			image: 'public/Projects/theraBot.png',
 			description: "This bot was built to help those dealing with any kind of emotion. You can have a semi-intelligent conversation and depending on how you feel the bot will play you a song from youtube as well as show you the video. When a user visits the site they can click the start session button and the bot greets them and the conversation can start. You can leave the session at anytime by saying 'I don't want to talk' and the session will end.",
-			tech: "Tech:  JavaScript, Firebase"
+			tech: "Tech:  JavaScript, DialogFlow, Firebase"
 		},
 		{
 			name: 'Student MGMT',
