@@ -43,7 +43,7 @@ angular.module('portfolio.projects', ['ngRoute'])
 			image: 'public/Projects/MGMT.png',
 			description: "An administrative system to store student data and generate student groups based on criteria like GPA, gender, and attendance. Formulated the students routes and used CSS to design the pages. This tool is useful for teachers that have a hard time forming groups of their students and to keep track of what student belongs to what teacher.   (Login: teacher@teacher.com, Password: teacher)",
 			tech: "Tech: Ruby on Rails, Ruby, PostgreSQL, Heroku, Twilio API"
-		}
+		},
 		{
 			name: 'Authentic Realities',
 			live: 'https://proj-authentic-realities.herokuapp.com/index.html',
