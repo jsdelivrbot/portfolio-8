@@ -18,7 +18,7 @@ angular.module('portfolio.projects', ['ngRoute'])
 			github: 'https://github.com/stacy89/MediHelper',
 			image: 'public/Projects/MediHelper.png',
 			description: "MediHelper is an app designed to improve the process of caretaking, and provides an easy access of medical information for doctor visits and emergencies. There is also a calendar feature that allows caretakers to track and schedule, treatments and appointments. (Login: test, Password: 1234)",
-			tech: "Tech:  JavaScript, Firebase"
+			tech: "Tech:  JavaScript, React.js, Node.js, Express, Passport.js, Twilio, Bootstrap, CSS, MongoDB, Full Calendar."
 		},
 		{
 			name: 'Thera-Bot',
