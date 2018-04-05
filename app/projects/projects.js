@@ -17,7 +17,15 @@ angular.module('portfolio.projects', ['ngRoute'])
 			live: 'https://pacific-tor-26182.herokuapp.com/',
 			github: 'https://github.com/stacy89/MediHelper',
 			image: 'public/Projects/MediHelper.png',
-			description: "MediHelper is an app designed to improve the process of caretaking, and provides an easy access of medical information for doctor visits and emergencies. There is also a calendar feature that allows caretakers to track and schedule, treatments and appointments. (Login: test, Password: 1234)",
+			description: "MediHelper is an app designed to improve the process of caretaking, and provides an easy access of medical information for doctor visits and emergencies. There is also a calendar feature that allows caretakers to track and schedule, treatments and appointments.   (Login: test, Password: 1234)",
+			tech: "Tech:  JavaScript, React.js, Node.js, Express, Passport.js, Twilio, Bootstrap, CSS, MongoDB, Full Calendar."
+		},
+		{
+			name: 'Time Bank',
+			live: 'https://timebankio.herokuapp.com/',
+			github: 'https://github.com/stacy89/time-bank',
+			image: 'public/Projects/TimeBank.png',
+			description: "Time Bank was built to encourage kids to understand the importance of productive tasks such as reading and exercise when compared to other anti-social activities such as video games, television and computers.   (Login: John, Password: user)",
 			tech: "Tech:  JavaScript, React.js, Node.js, Express, Passport.js, Twilio, Bootstrap, CSS, MongoDB, Full Calendar."
 		},
 		{
@@ -33,7 +41,7 @@ angular.module('portfolio.projects', ['ngRoute'])
 			live: 'https://teacherstudentmanagement.herokuapp.com/',
 			github: 'https://github.com/stacy89/Student-Management-Tool',
 			image: 'public/Projects/MGMT.png',
-			description: "An administrative system to store student data and generate student groups based on criteria like GPA, gender, and attendance. Formulated the students routes and used CSS to design the pages. This tool is useful for teachers that have a hard time forming groups of their students and to keep track of what student belongs to what teacher.   [Temp. access]--[email: teacher@teacher.com | password: teacher]",
+			description: "An administrative system to store student data and generate student groups based on criteria like GPA, gender, and attendance. Formulated the students routes and used CSS to design the pages. This tool is useful for teachers that have a hard time forming groups of their students and to keep track of what student belongs to what teacher.   (Login: teacher@teacher.com, Password: teacher)",
 			tech: "Tech: Ruby on Rails, Ruby, PostgreSQL, Heroku, Twilio API"
 		},
 		{
