@@ -101,7 +101,7 @@ angular.module('portfolio.photography', ['ngRoute'])
 			},
 			{
 				category: 'still life',
-				image: 'public/StillLife/Toaster.jpg'
+				image: 'public/StillLife/Toaster.JPG'
 			},
 			{
 				category: 'travel',
