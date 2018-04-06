@@ -4,15 +4,7 @@
   background-color: #D3D3D3;
   border-bottom: 0.1em solid black;
   margin-bottom: 2em;
-  padding: 3em;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
+  padding: 1em;
 }
 
 .menu > li {
@@ -28,12 +20,49 @@
   font-family: monospace;
 }
 
-.project-col,
-.aboutme-card {
+.project-col {
   margin-top: 5em;
   margin-bottom: 5em;
 }
 
+.aboutme-card {
+  margin-top: 15em;
+  margin-bottom: 15em;
+}
+
+.project-content {
+  padding: 30px;
+}
+
+.btn-lg {
+  margin-top: 15px; 
+  color: black !important; 
+}
+
+span {
+ font-family: monospace; 
+  color: black;
+}
+
+span:after {
+  content: "|";
+}
+
+.fa {
+  margin-top: 35px; 
+  width: 20px !important;
+  height: 20px !important;
+}
+
+footer {
+    margin-top: 150px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #D3D3D3;
+    color: white;
+    height: 100px;
+}
 
 
 
