@@ -26,7 +26,7 @@ angular.module('portfolio.projects', ['ngRoute'])
 			github: 'https://github.com/stacy89/time-bank',
 			image: 'public/Projects/TimeBank.png',
 			description: "Time Bank was built to encourage kids to understand the importance of productive tasks such as reading and exercise when compared to other anti-social activities such as video games, television and computers.   (Login: John, Password: user)",
-			tech: "Tech:  JavaScript, React.js, Node.js, Express, Passport.js, Twilio, Bootstrap, CSS, MongoDB, Full Calendar."
+			tech: "Tech:  Javascript, Node.js, Express, jQuery, MySQL, Passport.js, Sequelize, Chart.js, Handlebars, Bootstrap."
 		},
 		{
 			name: 'Thera-Bot',
