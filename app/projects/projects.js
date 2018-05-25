@@ -59,7 +59,7 @@ angular.module('portfolio.projects', ['ngRoute'])
 			name: 'Lost and Found',
 			github: 'https://github.com/stacy89/Lost_and_Found',
 			image: 'public/Projects/Lost&Found.png',
-			description: "A social network app that allows people to travel and visit restaurants and bars like a local in a new city, instead of just being a tourist. This app was built after my own struggle to find real, authentic experiences while traveling. Built user authentication, integrated google maps, relational database, and created look and feel of the UI.",
+			description: "A social network app that allows people to travel and visit restaurants and bars like a local in a new city, instead of just being a tourist. Built user authentication, integrated google maps, relational database, and created look and feel of the UI.",
 			tech: "Tech: Sinatra, JavaScript,  Google Maps API"
 		}
 	];
