@@ -22,16 +22,18 @@
 
 .project-col {
   margin-top: 5em;
-  margin-bottom: 5em;
+  /*margin-bottom: 5em;*/
 }
 
-.aboutme-card {
-  margin-top: 15em;
-  margin-bottom: 15em;
+.image{
+  padding-top: 30px;
 }
 
 .project-content {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .btn-lg {
@@ -55,15 +57,12 @@ span:after {
 }
 
 footer {
-    margin-top: 200px;
+    margin-top: 140px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #D3D3D3;
-    color: white;
     height: 100px;
 }
-
-
 
 
